@@ -13,8 +13,8 @@ sys.path.append(project_root)
 from src.utilities import *
 
 # 设置输入和输出目录
-input_dir = r'C:\Work\PycharmProjects\Seal_edge_recognize\Chinese-Seal-Recognize\data\data_n\test'  # 替换为您的输入目录路径
-output_dir = r'C:\Work\PycharmProjects\Seal_edge_recognize\Chinese-Seal-Recognize\data\data_n\test\output'  # 替换为您的输出目录路径
+input_dir = r''  # 替换为您的输入目录路径
+output_dir = r''  # 替换为您的输出目录路径
 
 # 如果输出目录不存在，创建它
 if not os.path.exists(output_dir):

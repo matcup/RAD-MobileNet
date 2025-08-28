@@ -22,8 +22,7 @@ from skimage.filters import gabor
 from scipy.fftpack import fft2
 from scipy.stats import kurtosis, skew
 # 设置输入图像路径
-# input_path = r'C:\Work\PycharmProjects\Seal_edge_recognize\Chinese-Seal-Recognize\data\1.png'  # 替换为您的输入图像路径
-input_path = r'C:\Work\PycharmProjects\Seal_edge_recognize\Chinese-Seal-Recognize\data\data_n\argument_text_overlay\乾隆-古希天子@@14.png'
+input_path = r''  # 替换为您的输入图像路径
 
 
 def extract_features(image):
